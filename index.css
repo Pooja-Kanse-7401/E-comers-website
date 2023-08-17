@@ -1,0 +1,376 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    height: 60px;
+    background-image: url(image/bg.jpg);    
+    z-index: 1;
+}
+.navlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar h1{
+    font-style: italic;
+    background: linear-gradient(purple,red);
+    color: white;
+    border-radius: 10px;
+    /* margin: 10px; */
+    padding: 5px;
+}
+.navlist{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.navlist li a{
+    font-size: 1.2rem;
+    padding: 3px 10px;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.navright{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.anchor{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 1.2rem;
+    text-decoration: 1.8px underline red;
+}
+.anchor:hover{
+    color: red;
+    background-color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.icon{
+    font-size: 1rem;
+    margin: 10px;
+    padding: 5px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url(background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Home */
+.fashion-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* width: 100%; */
+}
+.wfashion{
+    background-color: white;
+    display: flex;
+    margin: 50px; 
+}
+.fashion{
+    /* align-self: flex-end */
+    background-image: url(image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100%; */
+    width: 50%;
+}
+.contain{
+    margin: 50px;
+    margin-right: 400px;
+}
+.contain1{
+    margin: 130px
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: black;
+    font-style: bold;
+    font-family: cursive;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-shrink: auto; */
+}
+.img2{
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 22vw;
+    height: 30vh;
+    filter: contrast(1);
+}
+.img3{
+    background-image: url(image/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 22vw;
+    height: 30vh;
+    filter: contrast(1);
+}
+.img4{
+    background-image: url(image/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 22vw;
+    height: 28vh;
+    filter: contrast(1);
+}
+.img5{
+    background-image: url(image/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 22vw;
+    height: 28vh;
+    filter: contrast(1);
+}
+
+/* Main */
+
+.slide{
+    height: 400px;
+    width: 100%;
+    background-image: url(image/img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    /* opacity: 0.8; */
+}
+.obj{
+    margin-top: 150px;
+    margin-right: 250px;
+}
+.obj p{
+    color: rgb(185, 11, 86);
+    font-family: cursive;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.obj h2{
+    font-family: cursive;
+    font-size: 1.8rem;
+}
+.obj h3{
+    font-family: cursive;
+    background-color: rgb(242, 4, 4);
+    border-radius: 2px solid;
+    border-radius: 10px;
+    padding: 15px 10px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+/* Main */
+
+.sells{
+    display: inline-block;
+    margin: 10px;
+    padding:0px 140px;
+}
+.hot-trend{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 150px;
+}
+.sells-img img{
+    height: 140px;
+    width: 130px;
+    padding: 10px;
+}
+.hot-trend h3{
+    color: red;
+}
+.sells h2{
+    font-family: cursive;
+    text-decoration: underline 2px red ;
+    padding-bottom: 10px;
+    font-size: 1.7rem;
+}
+
+/* DISCOUNT */
+.off{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 90%;
+    /* margin: 20px 0px; */
+    
+}
+.off-img{
+    background-image: url(image/B3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+}
+.disc{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.disc-time{
+    font-size: 30px;
+}
+
+/* Collection */
+.collection{
+    /* width: 100%; */
+    /* display: inline-block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(252, 238, 241);
+    margin: 0px 10px;
+    text-align: center;
+}
+.collection img{
+    margin: 50px 0px;
+    height: 250px;
+    width: 230px;
+}
+.collection img:hover{
+    opacity: 0.4;
+    border: 3px solid red;
+}
+
+/* Footer */
+
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+}
+.details .contact{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    /* height: 400px; */
+    width: 300px;
+    padding: 0px 40px;
+}
+h1{
+    font-family: cursive;
+}
+.contact p{
+    padding: 7px 0px;
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact h3{
+    padding: 5px 0px;
+}
+.contact a{
+    padding: 7px 0px;
+}
+.contact a:hover{
+    text-decoration: underline red;
+    color: red;
+}
+.contact input{
+    height: 30px;
+    width: 150px;
+    border-radius: 30px;
+    padding: 0px 15px;
+    margin-top: 10px;
+}
+.contact button{
+    width: 120px;
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 6px;
+    margin: 10px 0px;
+}
+.contact button:hover{
+    font-size: large;
+}
+.icon-foot{
+    display: flex;
+    align-items: flex-start;
+    justify-content: auto;
+    text-align: center;
+}
+.icon-foot i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(203, 199, 199);
+    border-radius: 50px;
+    margin: 2px;
+}
+
+
+.copyright{
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 3px;
+}
+
+/* @media 1200px */

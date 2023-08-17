@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1000px){
+    .navbar{
+        flex-direction: column;
+        transition: all .7s ease-out;
+        height: 300px;
+        justify-content: space-between;
+    }
+    .navlist{
+        flex-direction: column;
+       
+    }
+    /* .nav-left{
+        flex-direction: column;
+        
+    } */
+    .navright{
+        align-items: center;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .wfashion{
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* flex-shrink: 100vw; */
+    }
+    .img{
+        flex-wrap: wrap;
+        flex-shrink: auto;
+        
+    }
+
+    /* .fashion-main{
+        flex-direction: column;
+    }
+    .fashion{
+        margin: 0px;
+        padding: 0px;
+        background-size: contain;
+        text-align: center;
+        font-size: 10px;
+        width: 0px;
+        align-self:flex-start;
+    }
+    .contain{
+        margin-right: 0px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .img{
+        text-align: center;
+        margin-top: 0px;
+        align-self:flex-end;
+    }
+    .img2{
+        background-size: contain;
+    }
+    .img3{
+        background-size: contain;
+    }
+    .img4{
+        background-size: contain;
+    }
+    .img5{
+        background-size: contain;
+    } */
+    .obj{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .slide{
+        align-items: center;
+    }
+    .off{
+        flex-wrap: nowrap;
+        height: 400px;
+    }
+    .off-img{
+        background-size: contain;
+    }
+}
